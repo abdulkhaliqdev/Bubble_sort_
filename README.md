@@ -22,6 +22,8 @@ To get your own copy of our project simply clone the repository to your local ma
 
         git clone https://github.com/abdulkhaliqdev/Bubble_sort_.git
         
+ - change the folder with following command
+        
         cd to Bubble_sort_
 
  - After this change the branch with the following command :
