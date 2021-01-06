@@ -11,7 +11,7 @@ This is a Bubble sort project with Ruby Programming language.The project is focu
 
 ## Live Demo
 
- ![Live Demo](https://repl.it/@AbdulKhaliq1/Bubblesort#main.rb)
+ [Live Demo](https://repl.it/@AbdulKhaliq1/Bubblesort#main.rb)
 
 
 ## Getting Started
