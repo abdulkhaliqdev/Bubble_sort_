@@ -42,8 +42,9 @@ def bubble_sort_by(data)
   data
 end
 
-p ("Bubbel_sort = #{bubble_sort(arr1)}")
+p ("bubble = #{bubble_sort(arr1)}")
+p bubble_sort(arr2)
 
-print "Bubbel_sort_by = "
+print "bubble_by = "
 p bubble_sort_by(arr2){ |left,right| left.length - right.length}
-p ("Bubbel_sort_by = #{bubble_sort_by(arr1){ |left,right| left - right}}")
+p ("bubble_by = #{bubble_sort_by(arr1){ |left,right| left - right}}")
