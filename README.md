@@ -30,10 +30,13 @@ To get your own copy of our project simply clone the repository to your local ma
         
         ruby bubble_sort.rb
 
+## Author 1
+
 👤 **Emanuel Okello**
 
 - [@oxenprogrammer](https://github.com/oxenprogrammer)
 - [@ox_emmy](https://twitter.com/ox_emmy)
+- [LindedIn](https://www.linkedin.com/in/emanuel-okello-1217b4b3/)
 
 ## Author 2
 
