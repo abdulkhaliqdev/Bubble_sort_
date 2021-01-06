@@ -46,5 +46,5 @@ end
 
 p "Bubbel_sort = #{bubble_sort(arr1)}"
 print 'Bubbel_sort_by = '
-p bubble_sort_by(arr2) { |left, right| left.length - right.length}
+p bubble_sort_by(arr2) { |left, right| left.length - right.length }
 p "Bubbel_sort_by = #{bubble_sort_by(arr1) { |left, right| left - right }}"
