@@ -1,5 +1,5 @@
 arr1 = [7, 6, 1, 5, 4, 3, 2, 1]
-arr2 = ['hi', 'hello', 'hey', 'a']
+arr2 = %w['hi hello hey a']
 
 def bubble_sort(data)
   size = data.length
@@ -35,7 +35,7 @@ def bubble_sort_by(data)
       positives = yield data[j], data[j + 1]
       if positives.positive?
         data[j], data[j + 1] = data[j + 1], data[j]
-        flag=true
+        flag = true
       end
       j += 1
     end
@@ -47,4 +47,4 @@ end
 p "Bubbel_sort = #{bubble_sort(arr1)}"
 print 'Bubbel_sort_by = '
 p bubble_sort_by(arr2) { |left, right| left.length - right.length}
-p "Bubbel_sort_by = #{bubble_sort_by(arr1) { |left, right| left - right}}"
+p "Bubbel_sort_by = #{bubble_sort_by(arr1) { |left, right| left - right }}"
